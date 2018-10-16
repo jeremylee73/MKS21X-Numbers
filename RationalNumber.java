@@ -10,11 +10,23 @@ public class RationalNumber extends RealNumber{
   }
 
   public int getValue(){
-    return 0;
+    return numerator / denominator;
   }
 
   public int compareQ(RationalNumber q){
     return 0;
+  }
+
+  public int getNumerator() {
+    return 0;
+  }
+
+  public int getDenominator() {
+    return 0;
+  }
+
+  public RationalNumber reciprocal() {
+    return null;
   }
 
   public String toString(){

@@ -18,4 +18,8 @@ public class RealNumber{
     return 0;
   }
 
+  public double add(RealNumber other) {
+    return value + other.getValue();
+  }
+
 }
