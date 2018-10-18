@@ -90,7 +90,6 @@ public class Driver {
     System.out.println(a.multiply(c));
     System.out.print("a / c (should print 1): ");
     System.out.println(a.divide(c));
-
   }
 
 }
